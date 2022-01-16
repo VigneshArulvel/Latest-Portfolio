@@ -1,0 +1,77 @@
+#about2InitDiv{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.additionalInfoTitle{
+    text-align: left;
+    font-size: 35px;
+    font-family: initial;
+    padding-top: 10px;
+}
+
+.additionalInfoSubTitle{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.progress > .progress-bar{
+    width: 0%;
+}
+
+.progress-bar{
+    /* width: 75% !important;  */
+    transition: width 4.5s linear 2s;
+    -webkit-transition : width 3.4s ease-in-out;
+}
+
+.skills .skill-box .progress-line {
+    background: #ddd;
+    height: 5px;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+.skills .skill-box .progress-line > span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #f3c26b;
+}
+
+.skills .skill-box .progress-line > span > .percent-tooltip {
+    position: absolute;
+    right: -15px;
+    top: -30px;
+    margin-bottom: 10px;
+    color: #444;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#percentageProgressBar{
+    transition: width 4.5s linear 2s;
+    -webkit-transition : width 3.4s ease-in-out !important;
+}
+
+.skillsTextDiv{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 15px;
+    height: 50px;
+}
+
+.bootstrapAboutIcon {
+    margin-bottom: 0.5rem !important;
+    color: #0d6efd;
+}

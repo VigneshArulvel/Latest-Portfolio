@@ -1,0 +1,63 @@
+#CUCTitle{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#mapIframe{
+    width :100%;
+    height :500px; 
+    border :0; 
+}
+
+#sendMessageButton{
+    position: relative;
+    float: left;
+    background-color: #3a8bcd !important;
+    border-color: #3a8bcd !important;
+}
+
+#contactUsContentPageContainer{
+    padding-bottom: 5%;
+}
+
+#formDivContainer{
+    margin-top: 20px;
+}
+
+#map{
+    padding-bottom: 5%;
+}
+
+#getInTouchDiv{
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#contactDataText{
+    float: left;
+    text-align: left;
+    max-width: 50%;
+}
+
+#contactDataDiv{
+    align-items: center;
+    justify-content: center;
+}
+
+#contactDataIcon{
+    height: 40px;
+    max-width: 70px;
+}
+
+#contactDataTextValue{
+    opacity: 0.5;
+}
+
+/* #contactDetailsDivContainer{
+    max-width: 50%;
+} */

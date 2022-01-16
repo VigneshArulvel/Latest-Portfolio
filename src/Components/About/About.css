@@ -1,0 +1,66 @@
+#aboutInitDiv{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#aboutMeTitleDiv{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#profileImageDiv{
+    border: 10px solid #dee2e6;
+    /* margin: 10px; */
+    padding: 0 !important;
+    height: 100%;
+}
+
+#profileImage{
+    /* padding-left: 0% !important;
+    padding-right: 0% !important; */
+    padding: 1% !important;
+    width: 100%;
+    /* margin: 5% !important; */
+}
+
+.aboutContext{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#aboutSecondDivTitle{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 5px;
+}
+@media (max-width: 992px) {
+    #aboutSecondDiv{
+        margin-top: 25px;
+    }
+
+    .aboutContext{
+        padding-left: 0px;
+    }
+
+    #aboutSecondDivTitle{
+        padding-left: 0px;
+    }
+}
+
+.bootstrapAboutIcon1{
+    margin-bottom: 0.5rem !important;
+    margin-right: 5px;
+    color: #0d6efd;
+}
+
+.bootstrapAboutIcon2{
+    color: #0d6efd;
+}
